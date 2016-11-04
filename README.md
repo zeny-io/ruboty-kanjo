@@ -17,7 +17,8 @@ And then execute:
 ## Usage
 
 ```
-ruboty kanjo aws - fetch pricing by AWS
+ruboty /kanjo aws billing\z/ - fetch aws billing
+ruboty /kanjo aws spot (?<availability_zone>[a-z0-9-]+) (?<instances>[a-z0-9.]+(?:\s*,\s*[a-z0-9.]+)*)\z/ - fetch aws spot instacne prices
 ```
 
 ## Development
